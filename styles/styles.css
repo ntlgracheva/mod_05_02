@@ -331,6 +331,7 @@ td.show-on-page {
 
 
 .overlay {
+    display: none;
     position: absolute;
     top: 0;
     bottom: -25%;
@@ -339,6 +340,9 @@ td.show-on-page {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.overlay.display-on {
+    display: flex;
+}
 
 .form {
     position: absolute;
